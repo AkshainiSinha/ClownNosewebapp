@@ -18,8 +18,8 @@ function modelLoaded(){
 function gotResults(r){
    if (r.length>0){
         console.log(r)
-        x_nose=r[0].pose.nose.x-10;
-        y_nose=r[0].pose.nose.y-10;
+        x_nose=r[0].pose.nose.x-14;
+        y_nose=r[0].pose.nose.y-20;
         console.log(x_nose)
         console.log(y_nose)
    }
