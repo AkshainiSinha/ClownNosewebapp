@@ -1,0 +1,39 @@
+#snap_button{
+    background-color: rgb(7, 71, 100);
+    color: black;
+    animation: font_color 2s infinite;
+    border-radius: 5px;
+}
+@keyframes font_color{
+    from{color:lightpink;}
+    to{color: #D1E8E4}
+}
+h1{
+    background-color: mediumspringgreen;
+    color: mintcream;
+    text-align: center;
+    width:fit-content;
+    padding: 5px 10px 5px 10px;
+}
+body{
+    background-image: linear-gradient(to bottom right, #28FFBF,#BCFFB9,#F5FDB0,#F7E6AD);
+    animation: linearGradient 10s infinite;
+}
+canvas{
+    border-top-color: indigo;
+    border-bottom-color: indigo;
+    border-left-color: rgb(204, 38, 154);
+    border-left-color: rgb(204, 38, 154);
+    border-style: ridge;
+    border-width:10px ;
+    animation: border_color 1s infinite;
+    box-shadow: 2px 2px 20px rgb(211, 142, 235);
+}
+@keyframes border_color{
+    from{border-top-color: indigo; border-bottom-color: indigo; border-left-color: rgb(204, 38, 154); border-right-color: rgb(204, 38, 154);}
+    to{border-top-color: rgb(204, 38, 154); border-bottom-color: rgb(204, 38, 154); border-left-color: indigo; border-right-color:indigo;}
+}
+@keyframes linearGradient{
+    from{background-image: linear-gradient(to bottom right, #28FFBF,#BCFFB9,#F5FDB0,#F7E6AD);}
+    to{background-image: linear-gradient(to bottom right,#F7E6AD,#F5FDB0,#BCFFB9, #28FFBF);}
+}
